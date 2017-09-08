@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-   self.origalData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Device_Select" ofType:@"wav"]];
+   self.origalData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"testWav" ofType:@"wav"]];
     self.currentRate = 1;
     
     NSMutableDictionary *setting = [NSMutableDictionary dictionary];
@@ -60,27 +60,31 @@
 
 -(NSData *)getWaveDataWithRate:(float)rate{
     //这个源文件是双声道，16位的
-    int beginLocation = 0x28;
+    int beginLocation = 0x2a;
     if (self.recordData) {
         beginLocation = 0xffc; //录音的数据从这里开始的
         self.playData = [self deepCopyData:self.recordData];
     } else {
-         self.playData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Device_Select" ofType:@"wav"]];
+         self.playData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"testWav" ofType:@"wav"]];
     }
     int dataLength = *((uint32_t *)(self.playData.bytes + beginLocation));
     int sampleCount = dataLength/2;
     int16_t *beginAddress = (int16_t *)(self.playData.bytes + beginLocation + 4);
     int value = 0;
+    int over = 0;
     for (int i = 0; i < sampleCount; i++) {
         value = beginAddress[i];
         value *= rate;
         if (value > 32700) {
             value = 32700;
+            over += 1;
         } else if (value < -32700){
             value = -32700;
+            over += 1;
         }
         beginAddress[i] = value;
     }
+    [self.playData writeToFile:@"/Users/CIA/Desktop/音乐扩大振幅.wav" atomically:YES];
     return self.playData;
 }
 
