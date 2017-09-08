@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		034258811F6244F20010F727 /* Device_Select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034258801F6244F20010F727 /* Device_Select.wav */; };
+		034258841F627CC70010F727 /* TestAmplitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034258831F627CC70010F727 /* TestAmplitudeViewController.m */; };
+		034258861F628FDE0010F727 /* mac录音.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034258851F628FDE0010F727 /* mac录音.wav */; };
 		03B600B61F60E49C006B1D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600B51F60E49C006B1D8C /* main.m */; };
 		03B600B91F60E49C006B1D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600B81F60E49C006B1D8C /* AppDelegate.m */; };
 		03B600BC1F60E49C006B1D8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600BB1F60E49C006B1D8C /* ViewController.m */; };
@@ -37,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		034258801F6244F20010F727 /* Device_Select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Device_Select.wav; sourceTree = "<group>"; };
+		034258821F627CC70010F727 /* TestAmplitudeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAmplitudeViewController.h; sourceTree = "<group>"; };
+		034258831F627CC70010F727 /* TestAmplitudeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAmplitudeViewController.m; sourceTree = "<group>"; };
+		034258851F628FDE0010F727 /* mac录音.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mac录音.wav"; sourceTree = "<group>"; };
 		03B600B11F60E49C006B1D8C /* PCMChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCMChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B600B51F60E49C006B1D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03B600B71F60E49C006B1D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 		03B600B31F60E49C006B1D8C /* PCMChart */ = {
 			isa = PBXGroup;
 			children = (
+				034258851F628FDE0010F727 /* mac录音.wav */,
 				034258801F6244F20010F727 /* Device_Select.wav */,
 				03B600B71F60E49C006B1D8C /* AppDelegate.h */,
 				03B600B81F60E49C006B1D8C /* AppDelegate.m */,
@@ -133,6 +139,8 @@
 				03B600E51F611E38006B1D8C /* WAVFilePakage.c */,
 				03B600E61F611E38006B1D8C /* WAVFilePakage.h */,
 				03B600E81F612D24006B1D8C /* testWav.wav */,
+				034258821F627CC70010F727 /* TestAmplitudeViewController.h */,
+				034258831F627CC70010F727 /* TestAmplitudeViewController.m */,
 			);
 			path = PCMChart;
 			sourceTree = "<group>";
@@ -269,6 +277,7 @@
 				03B600E91F612D24006B1D8C /* testWav.wav in Resources */,
 				03B600C11F60E49C006B1D8C /* Assets.xcassets in Resources */,
 				03B600BF1F60E49C006B1D8C /* Main.storyboard in Resources */,
+				034258861F628FDE0010F727 /* mac录音.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +395,7 @@
 				03B600B91F60E49C006B1D8C /* AppDelegate.m in Sources */,
 				03B600DB1F60E567006B1D8C /* PCMChartView.m in Sources */,
 				03B600B61F60E49C006B1D8C /* main.m in Sources */,
+				034258841F627CC70010F727 /* TestAmplitudeViewController.m in Sources */,
 				03B600E71F611E38006B1D8C /* WAVFilePakage.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
