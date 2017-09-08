@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034258811F6244F20010F727 /* Device_Select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034258801F6244F20010F727 /* Device_Select.wav */; };
 		03B600B61F60E49C006B1D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600B51F60E49C006B1D8C /* main.m */; };
 		03B600B91F60E49C006B1D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600B81F60E49C006B1D8C /* AppDelegate.m */; };
 		03B600BC1F60E49C006B1D8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600BB1F60E49C006B1D8C /* ViewController.m */; };
@@ -14,6 +15,14 @@
 		03B600C11F60E49C006B1D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B600C01F60E49C006B1D8C /* Assets.xcassets */; };
 		03B600C41F60E49C006B1D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B600C21F60E49C006B1D8C /* LaunchScreen.storyboard */; };
 		03B600CF1F60E49C006B1D8C /* PCMChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600CE1F60E49C006B1D8C /* PCMChartTests.m */; };
+		03B600DB1F60E567006B1D8C /* PCMChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600DA1F60E567006B1D8C /* PCMChartView.m */; };
+		03B600DE1F60E698006B1D8C /* SoundTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600DD1F60E698006B1D8C /* SoundTrack.m */; };
+		03B600E11F60EB41006B1D8C /* WaveFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600E01F60EB41006B1D8C /* WaveFileHelper.m */; };
+		03B600E41F61172F006B1D8C /* SoundTrackHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B600E31F61172F006B1D8C /* SoundTrackHelper.m */; };
+		03B600E71F611E38006B1D8C /* WAVFilePakage.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B600E51F611E38006B1D8C /* WAVFilePakage.c */; };
+		03B600E91F612D24006B1D8C /* testWav.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03B600E81F612D24006B1D8C /* testWav.wav */; };
+		DBE83A32A6ABB5BF01642A68 /* libPods-PCMChartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D19F6B1197F557F777FE6B /* libPods-PCMChartTests.a */; };
+		DF8F6102DC9B62C44319481F /* libPods-PCMChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F72AB9CAFC6FE505E8E288 /* libPods-PCMChart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034258801F6244F20010F727 /* Device_Select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Device_Select.wav; sourceTree = "<group>"; };
 		03B600B11F60E49C006B1D8C /* PCMChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCMChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B600B51F60E49C006B1D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03B600B71F60E49C006B1D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +50,23 @@
 		03B600CA1F60E49C006B1D8C /* PCMChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCMChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B600CE1F60E49C006B1D8C /* PCMChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCMChartTests.m; sourceTree = "<group>"; };
 		03B600D01F60E49C006B1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B600D91F60E567006B1D8C /* PCMChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMChartView.h; sourceTree = "<group>"; };
+		03B600DA1F60E567006B1D8C /* PCMChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMChartView.m; sourceTree = "<group>"; };
+		03B600DC1F60E698006B1D8C /* SoundTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTrack.h; sourceTree = "<group>"; };
+		03B600DD1F60E698006B1D8C /* SoundTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTrack.m; sourceTree = "<group>"; };
+		03B600DF1F60EB41006B1D8C /* WaveFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveFileHelper.h; sourceTree = "<group>"; };
+		03B600E01F60EB41006B1D8C /* WaveFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveFileHelper.m; sourceTree = "<group>"; };
+		03B600E21F61172F006B1D8C /* SoundTrackHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTrackHelper.h; sourceTree = "<group>"; };
+		03B600E31F61172F006B1D8C /* SoundTrackHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTrackHelper.m; sourceTree = "<group>"; };
+		03B600E51F611E38006B1D8C /* WAVFilePakage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WAVFilePakage.c; sourceTree = "<group>"; };
+		03B600E61F611E38006B1D8C /* WAVFilePakage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAVFilePakage.h; sourceTree = "<group>"; };
+		03B600E81F612D24006B1D8C /* testWav.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = testWav.wav; sourceTree = "<group>"; };
+		200329B25C6C16796C82E636 /* Pods-PCMChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-PCMChart/Pods-PCMChart.release.xcconfig"; sourceTree = "<group>"; };
+		210295F4FA2E241E6C23E5F3 /* Pods-PCMChartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMChartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PCMChartTests/Pods-PCMChartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51F72AB9CAFC6FE505E8E288 /* libPods-PCMChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PCMChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D19F6B1197F557F777FE6B /* libPods-PCMChartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PCMChartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E78A5B1B286D81AB8F52EE /* Pods-PCMChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PCMChart/Pods-PCMChart.debug.xcconfig"; sourceTree = "<group>"; };
+		879BFCDF94FD3700F0930C20 /* Pods-PCMChartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMChartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PCMChartTests/Pods-PCMChartTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8F6102DC9B62C44319481F /* libPods-PCMChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE83A32A6ABB5BF01642A68 /* libPods-PCMChartTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +95,8 @@
 				03B600B31F60E49C006B1D8C /* PCMChart */,
 				03B600CD1F60E49C006B1D8C /* PCMChartTests */,
 				03B600B21F60E49C006B1D8C /* Products */,
+				D51590469DC697821CAE0E8D /* Pods */,
+				277A26D8D7016D5897DD9AC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,7 @@
 		03B600B31F60E49C006B1D8C /* PCMChart */ = {
 			isa = PBXGroup;
 			children = (
+				034258801F6244F20010F727 /* Device_Select.wav */,
 				03B600B71F60E49C006B1D8C /* AppDelegate.h */,
 				03B600B81F60E49C006B1D8C /* AppDelegate.m */,
 				03B600BA1F60E49C006B1D8C /* ViewController.h */,
@@ -90,6 +122,17 @@
 				03B600C21F60E49C006B1D8C /* LaunchScreen.storyboard */,
 				03B600C51F60E49C006B1D8C /* Info.plist */,
 				03B600B41F60E49C006B1D8C /* Supporting Files */,
+				03B600D91F60E567006B1D8C /* PCMChartView.h */,
+				03B600DA1F60E567006B1D8C /* PCMChartView.m */,
+				03B600DC1F60E698006B1D8C /* SoundTrack.h */,
+				03B600DD1F60E698006B1D8C /* SoundTrack.m */,
+				03B600DF1F60EB41006B1D8C /* WaveFileHelper.h */,
+				03B600E01F60EB41006B1D8C /* WaveFileHelper.m */,
+				03B600E21F61172F006B1D8C /* SoundTrackHelper.h */,
+				03B600E31F61172F006B1D8C /* SoundTrackHelper.m */,
+				03B600E51F611E38006B1D8C /* WAVFilePakage.c */,
+				03B600E61F611E38006B1D8C /* WAVFilePakage.h */,
+				03B600E81F612D24006B1D8C /* testWav.wav */,
 			);
 			path = PCMChart;
 			sourceTree = "<group>";
@@ -111,6 +154,26 @@
 			path = PCMChartTests;
 			sourceTree = "<group>";
 		};
+		277A26D8D7016D5897DD9AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F72AB9CAFC6FE505E8E288 /* libPods-PCMChart.a */,
+				69D19F6B1197F557F777FE6B /* libPods-PCMChartTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D51590469DC697821CAE0E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73E78A5B1B286D81AB8F52EE /* Pods-PCMChart.debug.xcconfig */,
+				200329B25C6C16796C82E636 /* Pods-PCMChart.release.xcconfig */,
+				210295F4FA2E241E6C23E5F3 /* Pods-PCMChartTests.debug.xcconfig */,
+				879BFCDF94FD3700F0930C20 /* Pods-PCMChartTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B600D31F60E49C006B1D8C /* Build configuration list for PBXNativeTarget "PCMChart" */;
 			buildPhases = (
+				9AA7FD85EED1DF77D9C33A02 /* [CP] Check Pods Manifest.lock */,
 				03B600AD1F60E49C006B1D8C /* Sources */,
 				03B600AE1F60E49C006B1D8C /* Frameworks */,
 				03B600AF1F60E49C006B1D8C /* Resources */,
+				78C35AC2643B4A76027383EE /* [CP] Embed Pods Frameworks */,
+				9A3AC6E389ECCFE7739642B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B600D61F60E49C006B1D8C /* Build configuration list for PBXNativeTarget "PCMChartTests" */;
 			buildPhases = (
+				0D8A07F477926DEFB5777FB4 /* [CP] Check Pods Manifest.lock */,
 				03B600C61F60E49C006B1D8C /* Sources */,
 				03B600C71F60E49C006B1D8C /* Frameworks */,
 				03B600C81F60E49C006B1D8C /* Resources */,
+				45791705B1767A46A8BBE12E /* [CP] Embed Pods Frameworks */,
+				2B3E67FF8EE82D08BB8529ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B600C41F60E49C006B1D8C /* LaunchScreen.storyboard in Resources */,
+				034258811F6244F20010F727 /* Device_Select.wav in Resources */,
+				03B600E91F612D24006B1D8C /* testWav.wav in Resources */,
 				03B600C11F60E49C006B1D8C /* Assets.xcassets in Resources */,
 				03B600BF1F60E49C006B1D8C /* Main.storyboard in Resources */,
 			);
@@ -210,14 +281,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D8A07F477926DEFB5777FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3E67FF8EE82D08BB8529ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCMChartTests/Pods-PCMChartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45791705B1767A46A8BBE12E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCMChartTests/Pods-PCMChartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C35AC2643B4A76027383EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCMChart/Pods-PCMChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3AC6E389ECCFE7739642B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCMChart/Pods-PCMChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA7FD85EED1DF77D9C33A02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03B600AD1F60E49C006B1D8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B600DE1F60E698006B1D8C /* SoundTrack.m in Sources */,
 				03B600BC1F60E49C006B1D8C /* ViewController.m in Sources */,
+				03B600E41F61172F006B1D8C /* SoundTrackHelper.m in Sources */,
+				03B600E11F60EB41006B1D8C /* WaveFileHelper.m in Sources */,
 				03B600B91F60E49C006B1D8C /* AppDelegate.m in Sources */,
+				03B600DB1F60E567006B1D8C /* PCMChartView.m in Sources */,
 				03B600B61F60E49C006B1D8C /* main.m in Sources */,
+				03B600E71F611E38006B1D8C /* WAVFilePakage.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +522,7 @@
 		};
 		03B600D41F60E49C006B1D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E78A5B1B286D81AB8F52EE /* Pods-PCMChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PWPSVSW9N;
@@ -360,11 +530,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZFH.PCMChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		03B600D51F60E49C006B1D8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200329B25C6C16796C82E636 /* Pods-PCMChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PWPSVSW9N;
@@ -372,11 +544,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZFH.PCMChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		03B600D71F60E49C006B1D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210295F4FA2E241E6C23E5F3 /* Pods-PCMChartTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7PWPSVSW9N;
@@ -390,6 +564,7 @@
 		};
 		03B600D81F60E49C006B1D8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879BFCDF94FD3700F0930C20 /* Pods-PCMChartTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7PWPSVSW9N;
@@ -420,6 +595,7 @@
 				03B600D51F60E49C006B1D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B600D61F60E49C006B1D8C /* Build configuration list for PBXNativeTarget "PCMChartTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +604,7 @@
 				03B600D81F60E49C006B1D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
