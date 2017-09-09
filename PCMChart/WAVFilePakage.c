@@ -65,7 +65,7 @@ int generateFile(char *pcmFilePath, uint32_t frequency, uint16_t channleCount, u
 }
 
 int generateWaveBuffer(unsigned char *inputPcmBuffer,uint32_t pcmBufferByteLength, uint32_t frequency, uint16_t channleCount, uint16_t bitPerChannle, unsigned char **outputWavBuffer, int *waveBufferByteLength){
-    uint32_t waveLength = pcmBufferByteLength + 0x2b;
+    uint32_t waveLength = pcmBufferByteLength + 0x2c;
     unsigned char *waveBuffer = malloc(waveLength);
     
     int index = 0;
@@ -73,7 +73,7 @@ int generateWaveBuffer(unsigned char *inputPcmBuffer,uint32_t pcmBufferByteLengt
     for (int i = 0; i < 12; i++) {
         waveBuffer[i + index] = riffInfo[i];
     }
-    *(uint32_t *)(&waveBuffer[4]) = waveLength - 7;
+    *(uint32_t *)(&waveBuffer[4]) = waveLength - 8;
     index += 12;
     
     unsigned char contentTemp[10] = {0x66,0x6d,0x74,0x20,0x10,0x0,0x0,0x0,0x01,0x00};

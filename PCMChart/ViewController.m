@@ -30,7 +30,7 @@
 //    track.bitPerSample = 16;
 //    [((PCMChartView *)self.view) drawPCMChartWithSoundTrack:track];
     
-    NSArray *tracks = [SoundTrackHelper getSoundTracksWithWaveFile:[[NSBundle mainBundle] pathForResource:@"Device_Select" ofType:@"wav"]];
+    NSArray *tracks = [SoundTrackHelper getSoundTracksWithWaveFile:[[NSBundle mainBundle] pathForResource:@"正弦波" ofType:@"wav"]];
     [((PCMChartView *)self.view) drawPCMChartWithSoundTrack:tracks[0]];
     
  //  [self testSpliteFile];

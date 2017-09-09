@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033E8C4A1F639A0400C4FD38 /* 正弦波.wav in Resources */ = {isa = PBXBuildFile; fileRef = 033E8C491F639A0400C4FD38 /* 正弦波.wav */; };
 		034258811F6244F20010F727 /* Device_Select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034258801F6244F20010F727 /* Device_Select.wav */; };
 		034258841F627CC70010F727 /* TestAmplitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034258831F627CC70010F727 /* TestAmplitudeViewController.m */; };
 		034258861F628FDE0010F727 /* mac录音.wav in Resources */ = {isa = PBXBuildFile; fileRef = 034258851F628FDE0010F727 /* mac录音.wav */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033E8C491F639A0400C4FD38 /* 正弦波.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "正弦波.wav"; sourceTree = "<group>"; };
 		034258801F6244F20010F727 /* Device_Select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Device_Select.wav; sourceTree = "<group>"; };
 		034258821F627CC70010F727 /* TestAmplitudeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAmplitudeViewController.h; sourceTree = "<group>"; };
 		034258831F627CC70010F727 /* TestAmplitudeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAmplitudeViewController.m; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		03B600B31F60E49C006B1D8C /* PCMChart */ = {
 			isa = PBXGroup;
 			children = (
+				033E8C491F639A0400C4FD38 /* 正弦波.wav */,
 				034258851F628FDE0010F727 /* mac录音.wav */,
 				034258801F6244F20010F727 /* Device_Select.wav */,
 				03B600B71F60E49C006B1D8C /* AppDelegate.h */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B600C41F60E49C006B1D8C /* LaunchScreen.storyboard in Resources */,
+				033E8C4A1F639A0400C4FD38 /* 正弦波.wav in Resources */,
 				034258811F6244F20010F727 /* Device_Select.wav in Resources */,
 				03B600E91F612D24006B1D8C /* testWav.wav in Resources */,
 				03B600C11F60E49C006B1D8C /* Assets.xcassets in Resources */,
